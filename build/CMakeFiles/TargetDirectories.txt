@@ -1,0 +1,6 @@
+/home/cpp/C++/quickCmake/build/CMakeFiles/sylar.dir
+/home/cpp/C++/quickCmake/build/CMakeFiles/test.dir
+/home/cpp/C++/quickCmake/build/CMakeFiles/test_config.dir
+/home/cpp/C++/quickCmake/build/CMakeFiles/test_thread.dir
+/home/cpp/C++/quickCmake/build/CMakeFiles/edit_cache.dir
+/home/cpp/C++/quickCmake/build/CMakeFiles/rebuild_cache.dir

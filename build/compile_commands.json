@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/cpp/C++/quickCmake/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/home/cpp/C++/quickCmake/.  -rdynamic -O0  -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -g -fPIC -o CMakeFiles/sylar.dir/sylar/log.cpp.o -c /home/cpp/C++/quickCmake/sylar/log.cpp",
+  "file": "/home/cpp/C++/quickCmake/sylar/log.cpp"
+},
+{
+  "directory": "/home/cpp/C++/quickCmake/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/home/cpp/C++/quickCmake/.  -rdynamic -O0  -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -g -fPIC -o CMakeFiles/sylar.dir/sylar/util.cpp.o -c /home/cpp/C++/quickCmake/sylar/util.cpp",
+  "file": "/home/cpp/C++/quickCmake/sylar/util.cpp"
+},
+{
+  "directory": "/home/cpp/C++/quickCmake/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/home/cpp/C++/quickCmake/.  -rdynamic -O0  -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -g -fPIC -o CMakeFiles/sylar.dir/sylar/config.cpp.o -c /home/cpp/C++/quickCmake/sylar/config.cpp",
+  "file": "/home/cpp/C++/quickCmake/sylar/config.cpp"
+},
+{
+  "directory": "/home/cpp/C++/quickCmake/build",
+  "command": "/usr/bin/g++ -Dsylar_EXPORTS -I/home/cpp/C++/quickCmake/.  -rdynamic -O0  -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -g -fPIC -o CMakeFiles/sylar.dir/sylar/thread.cpp.o -c /home/cpp/C++/quickCmake/sylar/thread.cpp",
+  "file": "/home/cpp/C++/quickCmake/sylar/thread.cpp"
+},
+{
+  "directory": "/home/cpp/C++/quickCmake/build",
+  "command": "/usr/bin/g++  -I/home/cpp/C++/quickCmake/.  -rdynamic -O0  -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -g -o CMakeFiles/test.dir/tests/test.cpp.o -c /home/cpp/C++/quickCmake/tests/test.cpp",
+  "file": "/home/cpp/C++/quickCmake/tests/test.cpp"
+},
+{
+  "directory": "/home/cpp/C++/quickCmake/build",
+  "command": "/usr/bin/g++  -I/home/cpp/C++/quickCmake/.  -rdynamic -O0  -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -g -o CMakeFiles/test_config.dir/tests/test_config.cpp.o -c /home/cpp/C++/quickCmake/tests/test_config.cpp",
+  "file": "/home/cpp/C++/quickCmake/tests/test_config.cpp"
+},
+{
+  "directory": "/home/cpp/C++/quickCmake/build",
+  "command": "/usr/bin/g++  -I/home/cpp/C++/quickCmake/.  -rdynamic -O0  -ggdb -std=c++11 -Wall -Wno-deprecated -Werror -Wno-unused-function -g -o CMakeFiles/test_thread.dir/tests/test_thread.cpp.o -c /home/cpp/C++/quickCmake/tests/test_thread.cpp",
+  "file": "/home/cpp/C++/quickCmake/tests/test_thread.cpp"
+}
+]

@@ -1,0 +1,45 @@
+{
+    "options": {
+        // "cwd": "${fileDirname}"
+        "cwd": "${workspaceFolder}/build"    //需要进入到我们执行tasks任务的文件夹中，要调试的可执行程序的工作路径(绝对路径)，不包括文件名
+    },
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "cmake",
+            "command": "cmake",
+            "args": [
+                ".."
+            ]
+        },
+        {
+            "label": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "make",
+            "args": []
+        },
+        {
+            "label": "build",
+            "dependsOrder": "sequence",
+            "dependsOn": [
+                "cmake",
+                "make"
+            ]
+        },
+        {
+            "type": "cmake",
+            "label": "CMake: 生成",
+            "command": "build",
+            "targets": [
+                "all"
+            ],
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "CMake 模板 生成 任务"
+        }
+    ],
+    "version": "2.0.0"
+}

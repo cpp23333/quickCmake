@@ -1,0 +1,1 @@
+/usr/bin/g++ -std=c++11 -g -rdynamic CMakeFiles/main.dir/src/main.cpp.o -o main  -Wl,-rpath,/home/cpp/C++/quickCmake/build libSum.so 

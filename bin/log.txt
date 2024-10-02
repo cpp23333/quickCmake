@@ -1,0 +1,2 @@
+2024-09-06 22:48:07	ERROR	test log error
+2024-09-06 22:48:07	ERROR	test macro fmt error aa
