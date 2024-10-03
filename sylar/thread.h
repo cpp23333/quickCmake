@@ -5,8 +5,30 @@
 #include <functional>
 #include <pthread.h>
 #include <thread>
+#include <stdint.h>
+#include <semaphore.h>
 namespace sylar
 {
+
+    class Semaphore
+    {
+    public:
+        Semaphore(uint32_t count = 0);
+        ~Semaphore();
+        bool wait();
+        void notify();
+        bool tryWait();
+        bool post();
+
+    private:
+        Semaphore(const Semaphore &) = delete;
+        Semaphore(const Semaphore &&) = delete;
+        Semaphore &operator=(const Semaphore &) = delete;
+
+    private:
+        sem_t m_semaphore;
+    };
+
     class Thread
     {
     public:

@@ -1134,4 +1134,5 @@ CMakeFiles/test_thread.dir/tests/test_thread.cpp.o: \
  /home/cpp/C++/quickCmake/./sylar/singleton.h \
  /home/cpp/C++/quickCmake/./sylar/thread.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/std_thread.h \
- /usr/include/c++/11/bits/this_thread_sleep.h
+ /usr/include/c++/11/bits/this_thread_sleep.h /usr/include/semaphore.h \
+ /usr/include/x86_64-linux-gnu/bits/semaphore.h
